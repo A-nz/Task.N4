@@ -15,7 +15,7 @@ public class Main {
     private static double getFunctionValue(double a, double h, double n) {
         double result = 0;
         for (int i = 0; i <= n; i++) {
-            result = (getfunktion(a + i * h)) + result;
+            result = (getFunktion(a + i * h)) + result;
         }
         return result;
     }
@@ -32,7 +32,7 @@ public class Main {
         return scanner.nextInt();
     }
 
-    private static double getfunktion(double x) {
+    private static double getFunktion(double x) {
         return (((x * x) + 1) * Math.cos(x));
     }
 
