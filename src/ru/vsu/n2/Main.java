@@ -8,7 +8,6 @@ public class Main {
         double a = getDouble("a");
         double h = getDouble("h");
         int n = getInteger("n");
-
         printResult(getFunctionValue(a, h, n));
     }
 
